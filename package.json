@@ -1,0 +1,19 @@
+{
+  "name": "stock-market-dashboard",
+  "version": "1.0.0",
+  "description": "Simple dashboard that reports the latest prices for TSLA, FB and AMZN stocks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedosejev/stock-market-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedosejev/stock-market-dashboard/issues"
+  },
+  "homepage": "https://github.com/fedosejev/stock-market-dashboard"
+}

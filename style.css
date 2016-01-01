@@ -1,0 +1,35 @@
+* {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+a, a:focus, a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff6668;
+}
+
+.stock {
+  margin: 30px;
+}
+
+.stock-symbol {
+  font-size: 40px;
+  font-weight: 300;
+  padding: 40px 0;
+}
+
+.stock-price {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+  font-weight: 200;
+}
