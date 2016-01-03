@@ -2,6 +2,6 @@
 
 Simple dashboard that reports the latest prices for `TSLA`, `FB`, `AMZN` and `AAPL` stocks.
 
-## Live
+## Learn more
 
 http://fedosejev.github.io/stock-market-dashboard/
