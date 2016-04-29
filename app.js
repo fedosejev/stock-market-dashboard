@@ -3,8 +3,6 @@ $(function () {
   var API_KEY = 'GQ3em67Zs9xQMpZTtpU9';
   var STOCK_SYMBOLS = ['TSLA', 'FB', 'AMZN', 'AAPL'];
 
-  STOCK_SYMBOLS.forEach(requestStockPrice);
-
   function requestStockPrice(stockSymbol) {
     var request = $.ajax({
       method: 'get',
@@ -22,5 +20,7 @@ $(function () {
   function renderStockPrice(stockSymbol, stockPrice) {
     $('[data-stock-price="' + stockSymbol + '"]').text('$' + stockPrice);
   }
+
+  STOCK_SYMBOLS.forEach(requestStockPrice);
 
 });
