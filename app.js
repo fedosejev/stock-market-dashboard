@@ -13,11 +13,9 @@ $(function () {
     });
 
     request.done(function (data) {
-      console.log(stockSymbol + ': ' + data.dataset.data[0][4]);
-
       var stockPrice = data.dataset.data[0][4];
 
-      renderStockPrice(stockSymbol, stockPrice);
+      renderStockPrice(stockSymbol, stockPrice.toFixed(2));
     });
   }
 
